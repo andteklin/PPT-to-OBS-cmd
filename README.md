@@ -1,7 +1,7 @@
 # PowerPoint to OBSCommand
-A PowerPoint plugin that sends commands to OBS on slide show page changes.
+A PowerPoint add-on that sends commands to OBS on slide show page changes.
 
-This add-on script allows you to use PowerPoint speaker notes to control OBS using OBSCommand.
+This add-on allows you to use PowerPoint speaker notes to control OBS using OBSCommand.
 Learn more about OBSCommand here: https://github.com/REALDRAGNET/OBSCommand
 
 To add this to your PowerPoint application, go to the Releases tab and download the .ppam file.
