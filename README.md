@@ -13,8 +13,8 @@ The batch files for OBSCommand should be created at "C:\Program Files\OBSCommand
 
 The SceneMap.csv file allows you to customize speaker note strings in Column A and map them to batch file names in Column B of the CSV. This CSV file should be made at "C:\Program Files\PPT-to-OBS-cmd\SceneMap.csv".
 Example SceneMap.csv:
-CAM+SCREEN,OBS1
-SCREENONLY,OBS2
+CAM+SCREEN,OBS1__
+SCREENONLY,OBS2__
 CAMONLY,OBS3
 
 For instance, we place "CAM+SCREEN" as the first sequence of characters in the speaker notes on slide 2. Then the add-on script runs when we advance to slide 2, detecting "CAM+SCREEN" and executing the batch file containing commands for OBSCommand in OBS1.bat, located in "C:\Program Files\OBSCommand\scenes\".
